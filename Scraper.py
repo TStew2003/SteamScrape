@@ -18,7 +18,7 @@ if response.status_code == 200:
             if game_title:
                 file.write(game_title.text.strip() + "\n")
             else: 
-                print("Game title not found.")
+                print("Game title not found")
 
 else: 
     print("Failed to retreive from Steam.")
